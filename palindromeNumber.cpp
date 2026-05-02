@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 int isPalindrome(int n){
+    if(n<0){
+        return 0;
+    }
     int r=0,a=n,rev=0;
     while(a!=0){
         r=a%10;
