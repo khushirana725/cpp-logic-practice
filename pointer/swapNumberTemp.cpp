@@ -14,3 +14,4 @@ int main(){
     cout<<"a= "<<*p<<"\t b= "<<*p1;
     return 0;
 }
+//po1
